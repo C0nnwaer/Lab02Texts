@@ -26,8 +26,9 @@ public class MainActivity extends AppCompatActivity {
         submit_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String name = entered_name.getText().toString();
+                String name = entered_name.getText().toString().toUpperCase();
                 Log.i("submit_button", name);
+                name_display.setText(name);
             }
         });
     }

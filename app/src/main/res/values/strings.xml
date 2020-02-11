@@ -3,4 +3,9 @@
     <string name="username">JANE DOE</string>
     <string name="name_prompt">Enter name here</string>
     <string name="button_text">Submit</string>
+    <string-array name="messages">
+        <item>How are you?</item>
+        <item>I hope your day is going well.</item>
+        <item>Good morning!</item>
+    </string-array>
 </resources>
