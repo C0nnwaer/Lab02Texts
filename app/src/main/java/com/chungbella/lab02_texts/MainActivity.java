@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         submit_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String name = entered_name.getText();
+                String name = entered_name.getText().toString();
                 Log.i("submit_button", "Name entered by user");
             }
         });
