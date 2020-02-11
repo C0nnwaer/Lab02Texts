@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Lab02 - Texts</string>
-    <string name="username">Jane Doe</string>
+    <string name="username">JANE DOE</string>
+    <string name="name_prompt">Enter name here</string>
+    <string name="button_text">Submit</string>
 </resources>
