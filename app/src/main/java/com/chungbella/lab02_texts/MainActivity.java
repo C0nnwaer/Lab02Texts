@@ -20,9 +20,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         submit_button.setOnClickListener(new View.OnClickListener() {
-
+            @Override
             public void onClick(View v) {
-                @Override
                 String name = entered_name.getText();
                 Log.i("submit_button", "Name entered by user");
             }
